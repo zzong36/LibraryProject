@@ -120,7 +120,7 @@ public class AdminFileSaveFunc {
 			}
 
 			for (int i = 0; i < RegistrationFunc.userList.size(); i++) {
-				pw.printf("%s\t%s%n", RegistrationFunc.userList.get(i).getId(),
+				pw.printf("%s,%s%n", RegistrationFunc.userList.get(i).getId(),
 						BorrowBookFunc.borrowBook.get(RegistrationFunc.userList.get(i).getId()));
 			}
 
