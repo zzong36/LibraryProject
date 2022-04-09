@@ -37,7 +37,7 @@ public class AdminView {
 		int menuNum;
 		loop: while (true) {
 			System.out.print("*메뉴 번호를 입력하세요(1~4): ");
-			menuNum = sc.nextInt();
+			menuNum = Integer.parseInt(sc.nextLine());
 			switch (menuNum) {
 			case 1:
 				adminShowMemberList(); // 회원목록 조회
@@ -68,7 +68,7 @@ public class AdminView {
 		adf.memberListPrint(); // 회원목록 조회 기능
 		System.out.println("----------------------------------------------------------------------------------------");
 		System.out.print("회원을 추가하시겠습니까? yes(0) no(1): ");
-		int choice = sc.nextInt();
+		int choice = Integer.parseInt(sc.nextLine());
 		switch (choice) {
 		case 0:
 			System.out.println(
