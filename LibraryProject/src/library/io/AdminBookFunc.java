@@ -81,9 +81,6 @@ public class AdminBookFunc {
 		bookNumber = sc.nextLine().trim();
 		for (int i = 0; i < bookList.size(); i++) {
 			if (bookList.get(i).getBooknumber().equals(bookNumber)) {
-				System.out.println(bookList.get(i).getBooknumber());
-				System.out.println(bookNumber);
-				System.out.println(bookList.get(i));
 				System.out.println("도서관리번호 " + bookNumber + "이/가 이미 존재합니다. 다시 입력해주세요.");
 				bookNumberRegister();
 			}
