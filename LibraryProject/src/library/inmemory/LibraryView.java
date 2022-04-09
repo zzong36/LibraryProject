@@ -29,7 +29,7 @@ public class LibraryView {
 		int menuNum;
 
 		loop: while (true) {
-			menuNum = Integer.parseInt(sc.nextLine());
+			menuNum = Integer.parseInt(sc.nextLine()); 
 			switch (menuNum) {
 			case 1:
 				RegistrationView rf = new RegistrationView();

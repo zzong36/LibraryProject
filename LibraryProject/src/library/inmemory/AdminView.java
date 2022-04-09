@@ -86,6 +86,6 @@ public class AdminView {
 			System.out.println("관리자 메뉴로 이동합니다.");
 			adminShowMenu(); // 관리자 메뉴로 이동
 		}
-
+ 
 	}
 }
