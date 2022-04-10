@@ -20,15 +20,18 @@ In-Memory의 경우 도서관 관리자가 프로그램을 종료하면 그 때�
 로그인이 성공하면 도서검색, 도서대출 및 반납, 마이페이지에서 내 정보 수정 기능을 사용할 수 있습니다. <br>
 
 ### 3) 주요 기능
-
+<img src="inmemoryvsio.png"/><br>
 
 ### 4) In-Memory와 File IO의 차이
-
+<img src="주요 기능.png"/><br>
 
 ## 2. 프로젝트 시연 
 유튜브 동영상 <br>
 <iframe width="929" height="498" src="https://www.youtube.com/embed/X3diADDYE8o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <br>
 
 ## 3. 느낀점
+프로젝트를 수행하며 자바 실력이 나날이 성장해가는게 느껴졌습니다. <br>
+다양한 버그를 수정해 나가면서 데이터 구조에 대해 좀 더 자세히 알게 되었습니다. <br>
+향후 프로그램 설계에 대해 더 공부해 나가고 싶습니다. <br>
 
 
