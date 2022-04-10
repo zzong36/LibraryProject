@@ -31,6 +31,7 @@ In-Memory의 경우 도서관 관리자가 프로그램을 종료하면 그 때�
 유튜브 동영상 <br>
 <iframe width="929" height="498" src="https://www.youtube.com/embed/X3diADDYE8o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <br>
 <br>
+
 ## 3. 느낀점
 프로젝트를 수행하며 자바 실력이 나날이 성장해가는게 느껴졌습니다. <br>
 다양한 버그를 수정해 나가면서 데이터 구조에 대해 좀 더 자세히 알게 되었습니다. <br>
