@@ -41,7 +41,7 @@ public class AdminView {
 		int menuNum;
 		loop: while (true) {
 			System.out.print("*메뉴 번호를 입력하세요(1~5): ");
-			menuNum = sc.nextInt();
+			menuNum = Integer.parseInt(sc.nextLine());
 			switch (menuNum) {
 			case 1:
 				afv.showFileRead();// 회원정보와 도서정보가 담긴 txt 파일 읽어오기
