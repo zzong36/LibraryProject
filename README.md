@@ -14,7 +14,6 @@ JAVA로 도서관리 프로그램를 In-Memory와 File IO 두 가지 형식으�
 도서관 홈페이지가 운영되는 동안 인메모리에 신규회원가입 정보, 회원별 대출 및 반납 정보가 저장되고 관리자는 모든 정보를 관리자 페이지에서 조회할 수 있습니다. <br>
 In-Memory의 경우 도서관 관리자가 프로그램을 종료하면 그 때까지 저장된 모든 데이터는 사라지지만 FIle IO의 경우에는 데이터를 외부장치에 저장할 수 있습니다. <br>
 그러므로 관리자 페이지에 파일 저장 및 불러오는 기능을 추가합니다. <br>
-<br>
 #### 일반 회원
 일반회원은 아이디, 비밀번호, 이름, 생년월일, 이메일 주소를 입력해 회원가입할 수 있습니다. <br> 
 각 회원에게 고유성을 부유하기 위해 아이디는 중복될 수 없습니다. <br>
@@ -27,12 +26,16 @@ In-Memory의 경우 도서관 관리자가 프로그램을 종료하면 그 때�
 ### 4) In-Memory와 File IO의 차이
 <img src="inmemoryvsio.png"/><br>
 <br>
-## 2. 프로젝트 시연 
+
+## 2. 프로젝트 포트폴리오
+[포트폴리오(pdf)](/도서관리 포트폴리오.pdf)<br>
+
+## 3. 프로젝트 시연 
 유튜브 동영상 <br>
 <iframe width="929" height="498" src="https://www.youtube.com/embed/X3diADDYE8o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <br>
 <br>
 
-## 3. 느낀점
+## 4. 느낀점
 프로젝트를 수행하며 자바 실력이 나날이 성장해가는게 느껴졌습니다. <br>
 다양한 버그를 수정해 나가면서 데이터 구조에 대해 좀 더 자세히 알게 되었습니다. <br>
 향후 프로그램 설계에 대해 더 공부해 나가고 싶습니다. <br>
