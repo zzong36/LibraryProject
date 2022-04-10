@@ -66,7 +66,14 @@ public class MyPageFunc {
 		int year = c.get(Calendar.YEAR);
 		int month = c.get(Calendar.MONTH) + 1;
 		int date = c.get(Calendar.DATE);
-		System.out.printf("반납일자: %d년 %d월 %d일%n", year, month, date + 7);
+		
+		int lastday = c.getActualMaximum(Calendar.DATE);
+		
+		if(date + 7 <= lastday) {
+			System.out.printf("반납일자: %d년 %d월 %d일%n", year, month, date + 7);
+		} else {
+			System.out.printf("반납일자: %d년 %d월 %d일%n", year, month+1, date + 7 - lastday);
+		}
 	}
 
 }
