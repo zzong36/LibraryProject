@@ -20,10 +20,10 @@ In-Memory의 경우 도서관 관리자가 프로그램을 종료하면 그 때�
 로그인이 성공하면 도서검색, 도서대출 및 반납, 마이페이지에서 내 정보 수정 기능을 사용할 수 있습니다. <br>
 
 ### 3) 주요 기능
-<img src="inmemoryvsio.png"/><br>
+<img src="주요 기능.png"/><br>
 
 ### 4) In-Memory와 File IO의 차이
-<img src="주요 기능.png"/><br>
+<img src="inmemoryvsio.png"/><br>
 
 ## 2. 프로젝트 시연 
 유튜브 동영상 <br>
